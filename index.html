@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Idea Board</title>
 
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>💡 Idea Board</h1>
+</header>
+
+<main>
+
+<section class="card">
+
+<h2>アイデア投稿</h2>
+
+<input id="title" placeholder="タイトル">
+
+<textarea id="content"
+placeholder="内容"></textarea>
+
+<button id="submitBtn">
+投稿する
+</button>
+
+</section>
+
+<section class="card">
+
+<h2>アイデア一覧</h2>
+
+<div id="ideaList"></div>
+
+</section>
+
+</main>
+
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
